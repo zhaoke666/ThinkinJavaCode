@@ -1,4 +1,4 @@
-package com.左程云;
+package com.leetcode;
 
 public class 位运算 {
 
@@ -12,7 +12,7 @@ public class 位运算 {
 
 
     public static void main(String [] args){
-        print(4);
+        /*print(4);
 
         System.out.println("--------------------------最大整数-----------------------------");
         int a = Integer.MAX_VALUE;
@@ -53,7 +53,9 @@ public class 位运算 {
         print(min);
         //print(min<<1); //01000000000000000000000000000000
         print(min<<1);  //11000000000000000000000000000000
-
+        */
+        int a = 100;
+        System.out.println(a>>>3);
 
 
     }

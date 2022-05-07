@@ -1,4 +1,4 @@
-package com.左程云;
+package com.leetcode;
 
 public class 最长公共前缀 {
 

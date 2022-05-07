@@ -1,9 +1,9 @@
-package com.左程云;
+package com.leetcode;
 
 public class 寻找两个正序数组的中位数 {
 
     //要想时间复杂读满足O(log(m+n)) 首先考虑二分查找法
-    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+    public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int totallen = nums1.length + nums2.length;
         if(totallen%2 == 1){
             int midIndex = totallen / 2 + 1;
@@ -33,7 +33,7 @@ public class 寻找两个正序数组的中位数 {
      * @return
      */
 
-    private double getKthElement(int[] nums1, int[] nums2, int k) {
+    private static double getKthElement(int[] nums1, int[] nums2, int k) {
         int len1 = nums1.length, len2 = nums2.length;
         int index1 = 0, index2 = 0;
         int kthElement = 0;
@@ -62,5 +62,11 @@ public class 寻找两个正序数组的中位数 {
 
         }
 
+    }
+
+    public static void main(String[] args) {
+        int []  arr1 = {4,9}, arr2 = {2,5};
+        double medianSortedArrays = findMedianSortedArrays(arr1, arr2);
+        System.out.println(medianSortedArrays);
     }
 }

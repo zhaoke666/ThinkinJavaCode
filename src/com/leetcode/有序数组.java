@@ -1,8 +1,4 @@
-package com.左程云;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+package com.leetcode;
 
 public class 有序数组 {
 
